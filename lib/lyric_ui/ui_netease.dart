@@ -17,9 +17,9 @@ class UINetease extends LyricUI {
   HighlightDirection highlightDirection;
 
   UINetease(
-      {this.defaultSize = 18,
+      {this.defaultSize = 20,
       this.defaultExtSize = 14,
-      this.otherMainSize = 16,
+      this.otherMainSize = 14,
       this.bias = 0.5,
       this.lineGap = 25,
       this.inlineGap = 25,
@@ -44,21 +44,21 @@ class UINetease extends LyricUI {
 
   @override
   TextStyle getPlayingExtTextStyle() =>
-      TextStyle(color: Colors.grey[300], fontSize: defaultExtSize);
+      TextStyle(color: Colors.black, fontSize: defaultExtSize);
 
   @override
   TextStyle getOtherExtTextStyle() => TextStyle(
-        color: Colors.grey[300],
+        color: Colors.black,
         fontSize: defaultExtSize,
       );
 
   @override
   TextStyle getOtherMainTextStyle() =>
-      TextStyle(color: Colors.grey[200], fontSize: otherMainSize);
+      TextStyle(color: Colors.black, fontSize: otherMainSize);
 
   @override
   TextStyle getPlayingMainTextStyle() => TextStyle(
-        color: Colors.white,
+        color: Colors.black,
         fontSize: defaultSize,
       );
 

@@ -16,7 +16,7 @@ abstract class LyricUI {
   TextStyle getOtherExtTextStyle();
 
   ///空白行默认高度
-  double getBlankLineHeight() => 0;
+  double getBlankLineHeight() => 80;
 
   ///行高
   double getLineSpace();
