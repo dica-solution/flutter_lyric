@@ -177,7 +177,7 @@ class LyricsReaderPaint extends ChangeNotifier implements CustomPainter {
       var extOffsetY = drawOffsetY + otherLineHeight;
       otherLineHeight += drawText(canvas, extTextPainter, extOffsetY);
     }
-    return otherLineHeight;
+    return otherLineHeight + lyricUI.getBlankLineHeight();
   }
 
   void drawHighlight(LyricsLineModel model, Canvas canvas, TextPainter? painter,
