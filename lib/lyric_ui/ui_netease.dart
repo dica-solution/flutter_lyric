@@ -48,7 +48,7 @@ class UINetease extends LyricUI {
 
   @override
   TextStyle getOtherExtTextStyle() => TextStyle(
-        color: Colors.black,
+        color: Colors.black.withOpacity(0.0),
         fontSize: defaultExtSize,
       );
 
@@ -58,7 +58,7 @@ class UINetease extends LyricUI {
 
   @override
   TextStyle getPlayingMainTextStyle() => TextStyle(
-        color: Colors.black.withOpacity(0.0),
+        color: Colors.black,
         fontSize: defaultSize,
       );
 
